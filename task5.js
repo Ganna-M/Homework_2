@@ -1,4 +1,4 @@
-alert("Program accepts 3 integers and displays the largest one.")
+alert("Program accepts 3 integers and displays the biggest one.")
 let a = Number(prompt("Enter 1st integer"));
 let b = Number(prompt("Enter 2nd integer"));
 let c = Number(prompt("Enter 3rd integer"));
