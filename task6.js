@@ -1,3 +1,4 @@
+//minor changes
 alert("Program accepts 3 numbers and displays the sign of their product.")
 let a = Number(prompt("Enter 1st number"));
 let b = Number(prompt("Enter 2nd number"));

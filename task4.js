@@ -1,4 +1,4 @@
-
+//tried to use array instead of string
 let range_begin = Number(prompt("Program will return integers in range (x, y) you specify. Enter x - beginning of range"));
 let range_end = Number(prompt("Program will return integers in range (x, y) you specify. Enter y - end of range"));
 let range = [];

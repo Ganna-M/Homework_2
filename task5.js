@@ -1,3 +1,4 @@
+//minor changes
 alert("Program accepts 3 integers and displays the biggest one.")
 let a = Number(prompt("Enter 1st integer"));
 let b = Number(prompt("Enter 2nd integer"));

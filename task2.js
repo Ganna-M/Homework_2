@@ -1,3 +1,4 @@
+//changes - shorter code 
 /*let prime_number = prompt("Enter integer number greater than 1 to check either it is prime or not");
 while (Number(prime_number) <= 1 || (Number(prime_number) % 1) != 0 )  
 {

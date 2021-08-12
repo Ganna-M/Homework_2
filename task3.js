@@ -1,3 +1,4 @@
+//changes are needed
 let amount = prompt("Program converts amount of money you have into coins. Enter amount (for example, 1.34, 100.98 etc.)");
 let remainder = Number(amount);
 let coins_50, coins_20, coins_10, coins_5, coins_2, coins_1;
