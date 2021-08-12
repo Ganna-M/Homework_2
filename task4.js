@@ -1,7 +1,7 @@
 
 let range_begin = Number(prompt("Program will return integers in range (x, y) you specify. Enter x - beginning of range"));
 let range_end = Number(prompt("Program will return integers in range (x, y) you specify. Enter y - end of range"));
-let range = "[";
+let range = [];
 
 while (range_begin >= range_end || (range_begin) % 1 != 0 ||range_end % 1 != 0 )  
 {
@@ -11,12 +11,7 @@ while (range_begin >= range_end || (range_begin) % 1 != 0 ||range_end % 1 != 0 )
 }
 
 for (let i = range_begin + 1; i < range_end; i++) {
-    range = range + i + ', ';    
+    range.push(i);    
 }
 
-if (range.length > 1) 
-{
-    range = range.substr(0, range.length - 2);
-}
-range = range + "]";
-alert(range);
+alert(`[${range.toString()}]`);
